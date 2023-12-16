@@ -193,6 +193,10 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
+    body {
+        text-align: center; /* Center inline content within the body */
+    }
+
     header {
         padding: 10px; /* Adjust padding for smaller screens */
     }
@@ -214,6 +218,15 @@ footer {
         padding: 20px;
     }
 
+    .tech-icons {
+        flex-wrap: wrap; /* Allow tech icons to wrap to the next line */
+        justify-content: center; /* Center icons horizontally */
+    }
+
+    .tech-icons li {
+        margin: 10px; /* Add spacing around each tech icon */
+    }
+
     .tech-icons i {
         font-size: 40px; /* Adjust size of tech icons for smaller screens */
     }
@@ -223,10 +236,14 @@ footer {
     }
 
     .project {
-        margin-bottom: 30px; /* Add more space between projects */
+        margin: 0 auto 30px; /* Center each project horizontally and add more space at the bottom */
+        text-align: center; /* Center text within the project */
     }
 
     footer {
         padding: 10px;
     }
 }
+
+
+
