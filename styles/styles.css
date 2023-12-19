@@ -56,6 +56,7 @@ section {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    min-width: 200px;
 }
 
 .description {
@@ -192,7 +193,7 @@ footer {
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 870px) {
     body {
         text-align: center; /* Center inline content within the body */
     }
@@ -233,6 +234,7 @@ footer {
 
     #projects {
         padding: 20px;
+        text-align: center; /* Center text within the projects section */
     }
 
     .project {
@@ -240,10 +242,13 @@ footer {
         text-align: center; /* Center text within the project */
     }
 
+
+
     footer {
         padding: 10px;
     }
 }
+
 
 
 
